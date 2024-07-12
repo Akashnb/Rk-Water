@@ -84,7 +84,7 @@
           </li>
 
           <li>
-            <a href="#about-me" class="nav-link font-poppins hover:text-primary text-base">About Me</a>
+            <a href="#about-us" class="nav-link font-poppins hover:text-primary text-base">About Us</a>
           </li>
 
           <li>
@@ -96,15 +96,15 @@
           </li>
 
           <li>
-            <a href="#contact" class="nav-link font-poppins hover:text-primary text-base">Contact</a>
+            <a href="#contact-us" class="nav-link font-poppins hover:text-primary text-base">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <main class="w-full bg-secondaryLight pt-20 min-h-screen" id="home">
-    <div class="container mx-auto sm:px-0 px-4 grid grid-cols-1 sm:grid-cols-2">
+  <main id="home" class="w-full bg-secondaryLight pt-20 min-h-screen flex flex-col">
+    <div class="container mx-auto sm:px-0 px-4 grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
       <div class="flex flex-col items-start justify-center gap-4">
         <p class="text-primary text-5xl font-[laila] font-bold leading-normal">
           Pure, Healthy, and <br />
@@ -123,7 +123,7 @@
   </main>
 
   <section id="about-me">
-    <div class="container mx-auto sm:px-0 px-4 py-20 grid grid-cols-1 sm:grid-cols-2 gap-10">
+    <div class="container mx-auto sm:px-0 px-4 py-20 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="flex flex-col items-start">
         <p class="font-laila text-3xl font-bold">About <span class="text-primary">Us</span></p>
         <p class="font-bold text-lg font-normal font-be-vietnam">
@@ -158,8 +158,8 @@
     </div>
   </section>
 
-  <section class="bg-secondaryLight p-20">
-    <div class="container mx-auto sm:px-0 px-4 flex flex-col items-center gap-4">
+  <section class="bg-secondaryLight">
+    <div class="container mx-auto sm:px-0 px-4 p-20 flex flex-col items-center gap-4">
       <h1 class="w-full md:text-center text-left text-3xl font-laila font-bold">What's<span class="text-primary">
           Inside</span></h1>
       <p class="font-be-vietnam font-medium text-center">
@@ -171,7 +171,7 @@
         <div class="md:max-w-[22vw] mt-5 h-full flex flex-col justify-between items-center">
           <div class="">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-left text-center">Calcium</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-left text-center">5-12 mg/dm³</p>
+            <p class="text-secondary font-laila font-semibold md:text-left text-center">5-12 mg/dm³</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-left text-center">
               Calcium is vital for maintaining strong bones and teeth. It also plays a crucial role in muscle function
               and nerve signaling.
@@ -179,7 +179,7 @@
           </div>
           <div class="mt-5">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-left text-center">Magnesium</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-left text-center">2-5 mg/dm³</p>
+            <p class="text-secondary font-laila font-semibold md:text-left text-center">2-5 mg/dm³</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-left text-center">
               Magnesium helps regulate muscle and nerve function, blood sugar levels, and blood pressure. It also
               supports the production of protein, bone, and DNA.
@@ -187,7 +187,7 @@
           </div>
           <div class="mt-5">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-left text-center">Sodium</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-left text-center">20-25 mg/dm³</p>
+            <p class="text-secondary font-laila font-semibold md:text-left text-center">20-25 mg/dm³</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-left text-center">
               Sodium is essential for maintaining fluid balance, muscle contraction, and nerve transmission.
             </p>
@@ -197,14 +197,14 @@
         <div class="md:max-w-[30vw] mt-5 h-full flex flex-col justify-between items-center">
           <div class="">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-right text-center">Chlorine</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-right text-center">~46 mg/dm³</p>
+            <p class="text-secondary font-laila font-semibold md:text-right text-center">~46 mg/dm³</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-right text-center">
               Chlorine in controlled amounts helps maintain water purity by eliminating harmful bacteria and pathogens.
             </p>
           </div>
           <div class="mt-5">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-right text-center">Sourness (pH Level)</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-right text-center">6.8-7.3</p>
+            <p class="text-secondary font-laila font-semibold md:text-right text-center">6.8-7.3</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-right text-center">
               The slightly alkaline pH level of our water helps neutralize acidity in the body, promoting overall health
               and wellness.
@@ -212,7 +212,7 @@
           </div>
           <div class="mt-5">
             <p class="font-laila text-primary font-bold text-[1.2rem] md:text-right text-center">Mineralization</p>
-            <p class="text-secondary2 font-laila font-semibold md:text-right text-center">90-140 mg/dm³</p>
+            <p class="text-secondary font-laila font-semibold md:text-right text-center">90-140 mg/dm³</p>
             <p class="font-[400] font-be-vietnam md:text-[0.8rem] text-[1rem] md:text-right text-center">
               "The total mineral content of our water provides essential nutrients that are beneficial for health and
               hydration.
@@ -223,11 +223,11 @@
     </div>
   </section>
 
-  <section>
-    <div class="container mx-auto sm:px-0 px-4 py-20">
+  <section class="container mx-auto sm:px-0 px-4 py-20">
+    <div class="flex flex-col gap-4">
       <h1 class="text-3xl font-laila font-bold">Our<span class="text-primary"> Achievements</span></h1>
 
-      <p class="font-be-vietnam font-[400] mt-5 text-[1.2rem]">
+      <p class="font-be-vietnam font-[400] text-[1.2rem]">
         At R.K. Alkaline Water, we pride ourselves on our commitment to quality and customer satisfaction. Over the
         years, we have expanded our reach and made significant impacts across various states in India. Here are some of
         our key
@@ -239,24 +239,24 @@
           <div
             class="flex flex-col md:w-[25%] w-full items-center md:border-r-[1px] border-b-[1px] md:border-b-[0px] p-5">
             <p class="text-white font-laila md:text-[2rem] text-[3rem]">6.8K+</p>
-            <p class="text-secondary2 font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Water Bottled
+            <p class="text-secondary font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Water Bottled
               Delivered</p>
           </div>
           <div
             class="flex flex-col md:w-[25%] w-full items-center md:border-r-[1px] border-b-[1px] md:border-b-[0px] p-5">
             <p class="text-white font-laila md:text-[2rem] text-[3rem]">8+</p>
-            <p class="text-secondary2 font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Years Of
+            <p class="text-secondary font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Years Of
               Experienced</p>
           </div>
           <div
             class="flex flex-col md:w-[25%] w-full items-center md:border-r-[1px] border-b-[1px] md:border-b-[0px] p-5">
             <p class="text-white font-laila md:text-[2rem] text-[3rem]">760+</p>
-            <p class="text-secondary2 font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Customers
-              Happy With Us</p>
+            <p class="text-secondary font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Customers Happy
+              With Us</p>
           </div>
           <div class="flex flex-col md:w-[25%] w-full items-center p-5">
             <p class="text-white font-laila md:text-[2rem] text-[3rem]">20 +</p>
-            <p class="text-secondary2 font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Professional
+            <p class="text-secondary font-be-vietnam md:text-[1.2rem] text-[1.5rem] w-[70%] text-center">Professional
               Team Members</p>
           </div>
         </div>
@@ -265,7 +265,7 @@
   </section>
 
   <section id="services" class="container mx-auto sm:px-0 px-4 py-20">
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-4">
       <h1 class="text-3xl font-laila font-bold">Our<span class="text-primary"> Services</span></h1>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
         <div class="flex flex-col bg-[#E7F8FF] hover:bg-hover-bg hover:text-hover-text rounded-2xl pb-8">
@@ -311,49 +311,43 @@
     </div>
   </section>
 
-  <section class="container mx-auto sm:px-0 px-4 py-20">
-    <div class="flex flex-col">
-      <h1 class="font-laila text-3xl font-bold">Our <span class="text-primary" id="products">Products</span></h1>
+  <section id="products" class="container mx-auto sm:px-0 px-4 py-20">
+    <div class="flex flex-col gap-4">
+      <h1 class="font-laila text-3xl font-bold">Our <span class="text-primary">Products</span></h1>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div class="relative shadow-xl rounded-lg">
-          <a href="#">
-            <img class="rounded-t-lg h-70 md:w-full" src="./Images/Rectangle 7407.png" alt="" />
-          </a>
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl tracking-tight">Alkaline Water Dispenser (20L)</h5>
-            </a>
-            <p class="mb-3 font-be-vietnam text-[#585858] text-[0.9rem]">Keep your home or office hydrated with our
+        <div class="relative shadow-md rounded-lg">
+          <img class="rounded-t-lg h-70 md:w-full" src="./Images/Rectangle 7407.png" alt="" />
+
+          <div class="p-5 flex flex-col gap-2">
+            <h5 class="text-2xl tracking-tight">Alkaline Water Dispenser (20L)</h5>
+
+            <p class="font-be-vietnam text-[#585858] text-[0.9rem]">Keep your home or office hydrated with our
               convenient 20-liter alkaline water dispenser, designed for easy use and consistent quality.</p>
-            <span class="text-primary text-2xl">₹50.00</span>
+            <p class="text-primary text-2xl">₹50.00</p>
           </div>
         </div>
 
-        <div class="relative shadow-xl rounded-lg">
-          <a href="#">
-            <img class="rounded-t-lg h-70 md:w-full" src="./Images/cooler.png" alt="" />
-          </a>
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-2xl tracking-tight">Premium Alkaline Water (20L)</h5>
-            </a>
-            <p class="mb-3 font-be-vietnam text-[#585858] text-[0.9rem]">Experience the health benefits of our
-              top-quality alkaline water, perfectly balanced for optimal hydration.</p>
-            <span class="text-primary text-2xl">₹100.00</span>
+        <div class="relative shadow-md rounded-lg">
+          <img class="rounded-t-lg h-70 md:w-full" src="./Images/cooler.png" alt="" />
+
+          <div class="p-5 flex flex-col gap-2">
+            <h5 class="text-2xl tracking-tight">Premium Alkaline Water (20L)</h5>
+
+            <p class="font-be-vietnam text-[#585858] text-[0.9rem]">Experience the health benefits of our top-quality
+              alkaline water, perfectly balanced for optimal hydration.</p>
+            <p class="text-primary text-2xl">₹100.00</p>
           </div>
         </div>
 
-        <div class="relative shadow-xl rounded-lg">
-          <a href="#">
-            <img class="rounded-t-lg h-70 md:w-full" src="./Images/container (2).png" alt="" />
-          </a>
-          <div class="p-5">
-            <a href="#">
-              <h5 class="mb-2 text-xl tracking-tight">Advanced Water Filter System (20L)</h5>
-            </a>
-            <p class="mb-3 font-be-vietnam text-[#585858] text-[0.9rem]">Enjoy clean, safe, and refreshing water with
-              our state-of-the-art water filter system, ideal for both home and office use.</p>
-            <span class="text-primary text-2xl">₹80.00</span>
+        <div class="relative shadow-md rounded-lg">
+          <img class="rounded-t-lg h-70 md:w-full" src="./Images/container (2).png" alt="" />
+
+          <div class="p-5 flex flex-col gap-2">
+            <h5 class="text-xl tracking-tight">Advanced Water Filter System (20L)</h5>
+
+            <p class="font-be-vietnam text-[#585858] text-[0.9rem]">Enjoy clean, safe, and refreshing water with our
+              state-of-the-art water filter system, ideal for both home and office use.</p>
+            <p class="text-primary text-2xl">₹80.00</p>
           </div>
         </div>
       </div>
@@ -361,7 +355,7 @@
   </section>
 
   <section class="container mx-auto sm:px-0 px-4 py-20">
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-4">
       <h1 class="font-laila text-3xl font-bold">Our <span class="text-primary">Customers</span></h1>
       <div class="flex flex-col gap-2">
         <div class="grid grid-cols-2 gap-2">
@@ -381,7 +375,7 @@
   </section>
 
   <footer id="contact" class="bg-[#FAFAFA]">
-    <div class="container mx-auto sm:px-0 px-4 py-20 flex flex-col items-center">
+    <div class="container mx-auto sm:px-0 px-4 py-20 flex flex-col items-center gap-4">
       <img src="./Images/Logo (3).png" class="md:w-[20vw]" />
 
       <ul class="flex flex-col md:flex-row gap-6 md:items-center">
@@ -390,7 +384,7 @@
         </li>
 
         <li>
-          <a href="#about-me" class="nav-link font-poppins hover:text-primary text-base">About Me</a>
+          <a href="#about-us" class="nav-link font-poppins hover:text-primary text-base">About Us</a>
         </li>
 
         <li>
@@ -402,7 +396,7 @@
         </li>
 
         <li>
-          <a href="#contact" class="nav-link font-poppins hover:text-primary text-base">Contact</a>
+          <a href="#contact-us" class="nav-link font-poppins hover:text-primary text-base">Contact Us</a>
         </li>
       </ul>
 
@@ -440,5 +434,33 @@
     });
   </script>
 </body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const currentHash = window.location.hash;
+
+    navLinks.forEach((link) => {
+      if (link.getAttribute("href") === currentHash) {
+        link.classList.add("text-primary");
+      } else {
+        link.classList.remove("text-primary");
+      }
+    });
+
+    // Optional: Update the active link on hash change
+    window.addEventListener("hashchange", function () {
+      const newHash = window.location.hash;
+
+      navLinks.forEach((link) => {
+        if (link.getAttribute("href") === newHash) {
+          link.classList.add("text-primary");
+        } else {
+          link.classList.remove("text-primary");
+        }
+      });
+    });
+  });
+</script>
 
 </html>
