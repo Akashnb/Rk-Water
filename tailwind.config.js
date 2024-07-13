@@ -8,7 +8,7 @@ module.exports = {
         "be-vietnam": ["Be Vietnam", "sans-serif"],
       },
       colors: {
-        primary: "#004DA1",
+        primary: "#004da1",
         secondary: "#21b6ff",
         secondaryLight: "#e7f8ff",
       },
