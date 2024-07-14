@@ -620,10 +620,6 @@ video {
   order: 1;
 }
 
-.order-2 {
-  order: 2;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -917,10 +913,6 @@ video {
   text-align: center;
 }
 
-.font-\[laila\] {
-  font-family: laila;
-}
-
 .font-be-vietnam {
   font-family: Be Vietnam, sans-serif;
 }
@@ -939,9 +931,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-\[0\.9rem\] {
@@ -983,11 +975,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-\[400\] {
   font-weight: 400;
 }
@@ -1010,10 +997,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em;
 }
 
 .text-\[\#585858\] {
@@ -1074,10 +1057,6 @@ video {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-4 {
@@ -1141,10 +1120,6 @@ video {
     width: auto;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:max-w-\[22vw\] {
     max-width: 22vw;
   }
@@ -1159,10 +1134,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:border-b-\[0px\] {
