@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "A website for R.K. Water providing information about water purification solutions and services.",
   "main": "index.js",
+  "author": "Akash Bambhaniya",
+  "author-email": "akash.dev.personal@gmail.com",
+  "author-website": "https://akashb.in/",
+  "homepage": "https://rkwater.vercel.app/",
   "scripts": {
     "start": "tailwindcss -o ./public/output.css --watch"
   },
-  "author": "Akash Bambhaniya | akash.dev.personal@gmail.com | https://akashb.vercel.app/",
   "license": "ISC",
   "private": true,
   "dependencies": {},
@@ -19,6 +22,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "homepage": "https://rkwater.vercel.app/"
+  }
 }
